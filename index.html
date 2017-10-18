@@ -8,13 +8,23 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <div id="sidebar">
+    <ul>
+    <li><a href="#me">About me</a></li>
+      <li><a href="#contacts">Contact me</a></li>
+      <li><a href="#movies">What I watch</a></li>
+      <li><a href="#books">What I read</a></li>
+      <li><a href="#sports">What I sport</a></li>
+    </ul>
+  </div>
+
   <div class="container">
-    <div class="card">
+    <div class="card" id="me">
       <img id="profile" src="images/me.jpeg">
       <h1>Pablo Curell i Mompó</h1>
       <h2>Student @Le Wagon</h2>
     </div>
-    <div class="card inline">
+    <div class="card inline" id="contacts">
       <ul>
         <li>
           <i class="fa fa-facebook-official" aria-hidden="true"></i>
@@ -31,7 +41,7 @@
       </ul>
     </div>
 
-    <div class="card">
+    <div class="card" id="movies">
       <h2>Me, Myself and I</h2>
       <h3>a.k.a -> My things and my stuffs</h3>
       <table>
@@ -57,7 +67,7 @@
       </tr>
     </table>
   </div>
-  <div class="card inline">
+  <div class="card inline" id="books">
     <table>
       <tr>
         <td><h2>My Books</h2></td>
@@ -71,7 +81,7 @@
       </tr>
     </table>
   </div>
-  <div class="card inline">
+  <div class="card inline" id="sports">
     <table>
       <tr>
         <td><h2>My Sports</h2></td>
@@ -85,7 +95,6 @@
       </tr>
     </table>
   </div>
-
+</div>
 </body>
 </html>
-</div>
